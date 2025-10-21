@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Khushboo Nazir | BCA Student, Aspiring Cybersecurity Professional, and Programmer passionate about technology and security." />
+    <meta name="author" content="Khushboo Nazir" />
+    
+    <title>Khushboo Nazir | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-K5tPzI0o4K3A7EjP1vZBzWv8A2a/ogZtHTa+uED2GVxkQdYiOG60kNo6mXqO/XUez9dnHxeYf9xCj1Z6Bj8pZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" /> <link rel="icon" href="assets/images/profile.png" type="image/png"> 
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Khushboo Nazir</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="images/profile.png" alt="Khushboo Nazir Profile Photo" class="profile-img">
+            <h2>Hi, I'm <span>Khushboo Nazir</span></h2>
+            <p>BCA Student | Aspiring Cybersecurity Professional | Programmer</p>
+
+            <div class="btn-group">
+                <a href="assets/Khushboo Nazir resume.pdf" class="btn" download>📄 Download Resume</a>
+                <a href="projects.html" class="btn secondary">💻 View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container"> <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">C Programming</div>
+                <div class="skill-card">Python (Basics)</div>
+                <div class="skill-card">Cybersecurity Fundamentals</div>
+                <div class="skill-card">Linux</div>
+            </div>
+        </div>
+    </section>
+
+   <section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        
+        <form id="contactForm" action="https://formspree.io/f/myznnjew" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+            <input type="email" id="email" name="email" placeholder="Your Email" required />
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+    <footer>
+        <p>© 2025 Khushboo Nazir | Built with ❤️ and determination.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
